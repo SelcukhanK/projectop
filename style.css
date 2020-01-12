@@ -1,0 +1,118 @@
+
+
+#background video {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    z-index: 0;
+}
+#content div {
+    position: relative;
+    z-index: 1;
+}
+
+.topnav {
+  background-color: transparent;
+  overflow: hidden;
+}
+
+.topnav a {
+  font-family: 'Varela Round', sans-serif;
+  float: left;
+  color: white ;
+  text-align: center;
+  padding: 25px 25px;
+  text-decoration: none;
+  font-size: 30px;
+  margin-top: 75px;
+}
+
+.topnav a:hover {
+  background-color: transparent;
+  color: MediumVioletRed;
+}
+
+.logoimage{
+    overflow: hidden;
+    margin-top: -70px;
+}
+
+#wrapper1 {
+  background-color: rgba(233, 21, 141, 0.48);
+  border-style: dashed;
+  border-width: 5px;
+  width: 400px;
+  height: 300px;
+  padding: 100px
+}
+
+#wrmma h3 {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  margin: -30px;
+  height: -600px;
+
+}
+
+ #wrmma p {
+  font-family: 'Gayathri', sans-serif;
+  text-align: left;
+  color: white;
+  font-family: verdana;
+  font-size: 15px;
+
+}
+
+#kader1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#imgwrmma {
+  display: inline-block;
+    vertical-align: top;
+    width: 50px;
+    height: 50px;
+    margin-left: 420px;
+    margin-right: 20px;
+    margin-top: -200px;
+}
+
+#imgwrmma img {
+  height: 250px;
+
+}
+[data-typer]:after {
+  content:"";
+  display: inline-block;
+  vertical-align: middle;
+  width:1px;
+  height:1em;
+  background: #000;
+          animation: caretPulsate 1s linear infinite;
+  -webkit-animation: caretPulsate 1s linear infinite;
+}
+@keyframes caretPulsate {
+  0%   {opacity:1;}
+  50%  {opacity:1;}
+  60%  {opacity:0;}
+  100% {opacity:0;}
+}
+@-webkit-keyframes caretPulsate {
+  0%   {opacity:1;}
+  50%  {opacity:1;}
+  60%  {opacity:0;}
+  100% {opacity:0;}
+}
+ .hidden {
+   display: none;
+ }
